@@ -9,6 +9,7 @@ public class GameState : MonoBehaviour
     public static StateGS Pause;
     public static StateGS Resume;
 
+
     private bool paused;
 
     [SerializeField] private GameObject m_pauseMenu;
@@ -22,6 +23,7 @@ public class GameState : MonoBehaviour
     void Start()
     {
         paused = false;
+
     }
 
     // Update is called once per frame
@@ -55,6 +57,10 @@ public class GameState : MonoBehaviour
         Time.timeScale = 1;
     }
 
+    public void ToggleHelpMenu()
+    {
+        HelpMEnu.toggleOn?.Invoke();
+    }
 
 
 }
