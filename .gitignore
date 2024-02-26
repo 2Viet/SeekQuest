@@ -75,3 +75,9 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 # End of https://www.toptal.com/developers/gitignore/api/unity
+ProjectSettings/ProjectVersion.txt
+ProjectSettings/Packages/com.unity.probuilder/Settings.json
+ProjectSettings/ProjectVersion.txt
+ProjectSettings/ProjectVersion.txt
+Packages/manifest.json
+Packages/packages-lock.json
